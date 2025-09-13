@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio Pabwe Prak</title>
+    <title>Portofolio Pabwe Prak</title>
+    <!-- Font & Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -12,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -20,8 +22,8 @@
       <header class="header">
         <div class="header-content">
           <div class="logo">
-            <img src="https://i.imgur.com/1Q9Z1Z1.jpg" alt="Foto Profil" class="profile-photo" />
-            <span>Pabwe Prak</span>
+            <img src=".jpg" alt="" class="profile-photo" />
+            <span>Portfolio</span>
           </div>
           <nav class="nav">
             <a href="#about">Tentang</a>
@@ -37,22 +39,31 @@
 
       <!-- Hero / About Section -->
       <section class="hero" id="about">
-        <h1>Pabwe Prak</h1>
-        <p>Web Developer & UI Designer | Bandung, Indonesia</p>
+        <h1>Christian Johannes Hutahaean</h1>
+        <p>Web Developer & UI Designer | Binjai, Indonesia</p>
         <div class="about-profile">
-          <img src="https://i.imgur.com/1Q9Z1Z1.jpg" alt="Foto Profil" class="profile-photo-large" />
+      <img src="assets/postku.jpg" 
+     alt="" 
+     class="profile-photo-medium" 
+     style="width: 400px; height: auto; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+
+
+
+
           <div class="about-info">
-            <p>Saya adalah seorang web developer dan UI designer yang berpengalaman dalam membangun website modern, responsif, dan interaktif. Passion saya adalah menggabungkan teknologi dan desain untuk menciptakan solusi digital yang berdampak.</p>
+            <p>
+              Saya adalah seorang web developer dan UI designer yang berpengalaman dalam membangun website modern, responsif, dan interaktif. Passion saya adalah menggabungkan teknologi dan desain untuk menciptakan solusi digital yang berdampak.
+            </p>
             <ul class="contact-list">
-              <li><i class="fas fa-envelope"></i> Email: <a href="mailto:pabweprak@gmail.com">pabweprak@gmail.com</a></li>
-              <li><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/6281234567890">+62 812-3456-7890</a></li>
-              <li><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</li>
+              <li><i class="fas fa-envelope"></i> Email: <a href="mailto:pabweprak@gmail.com">chrisjo@gmail.com</a></li>
+              <li><i class="fab fa-whatsapp"></i> WhatsApp: <a href="" target="_blank">+62 812-3456-7890</a></li>
+              <li><i class="fas fa-map-marker-alt"></i> Binjai, Indonesia</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Education Section -->
+      <!-- Education -->
       <section class="features" id="education">
         <div class="section-title">
           <h2>Riwayat Pendidikan</h2>
@@ -71,7 +82,7 @@
         </div>
       </section>
 
-      <!-- Experience Section -->
+      <!-- Experience -->
       <section class="pricing" id="experience">
         <div class="section-title">
           <h2>Pengalaman Kerja</h2>
@@ -97,31 +108,64 @@
           </div>
         </div>
       </section>
-      <!-- Skills Section -->
-      <section class="features" id="skills">
-        <div class="section-title">
-          <h2>Keahlian</h2>
-        </div>
-        <div class="features-grid skills-grid">
-          <div class="feature-card">
-            <i class="fab fa-html5"></i>
-            <h3>HTML, CSS, SCSS</h3>
-          </div>
-          <div class="feature-card">
-            <i class="fab fa-js-square"></i>
-            <h3>JavaScript, React</h3>
-          </div>
-          <div class="feature-card">
-            <i class="fab fa-figma"></i>
-            <h3>UI/UX Design, Figma</h3>
-          </div>
-          <div class="feature-card">
-            <i class="fas fa-server"></i>
-            <h3>Node.js, REST API</h3>
-          </div>
-        </div>
-      </section>
-      <!-- Certificates Section -->
+
+      <!-- Skills -->
+   <section class="features" id="skills" style="padding: 2rem; font-family: Arial, sans-serif;">
+  <div class="section-title" style="text-align: center; margin-bottom: 2rem;">
+    <h2>Keahlian</h2>
+  </div>
+  <div class="features-grid skills-grid" style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+    
+    <!-- Kartu sebelumnya -->
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-html5" style="font-size: 2rem; color: #e34f26; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">HTML, CSS, SCSS</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-js-square" style="font-size: 2rem; color: #f7df1e; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">JavaScript, React</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-figma" style="font-size: 2rem; color: #a259ff; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">UI/UX Design, Figma</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-node-js" style="font-size: 2rem; color: #68a063; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">Node.js, Express</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fas fa-database" style="font-size: 2rem; color: #f29111; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">MySQL, MongoDB</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-python" style="font-size: 2rem; color: #306998; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">Python, Data Analysis</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-git-alt" style="font-size: 2rem; color: #f1502f; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">Git, GitHub</h3>
+    </div>
+
+    <!-- 3 Keahlian Tambahan -->
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-js" style="font-size: 2rem; color: #3178c6; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">TypeScript</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-docker" style="font-size: 2rem; color: #0db7ed; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">Docker</h3>
+    </div>
+    <div class="feature-card" style="flex: 1 1 200px; max-width: 220px; background-color: #ffffff; text-align: center; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+      <i class="fab fa-aws" style="font-size: 2rem; color: #ff9900; margin-bottom: 0.5rem;"></i>
+      <h3 style="margin: 0; font-size: 1rem;">AWS Cloud</h3>
+    </div>
+
+  </div>
+</section>
+
+
+
+      <!-- Certificates -->
       <section class="pricing" id="certificates">
         <div class="section-title">
           <h2>Sertifikat</h2>
@@ -145,41 +189,76 @@
           </div>
         </div>
       </section>
-      <!-- Portfolio Section -->
-      <section class="features" id="portfolio">
-        <div class="section-title">
-          <h2>Contoh Proyek</h2>
-        </div>
-        <div class="features-grid portfolio-grid">
-          <div class="feature-card">
-            <img src="https://i.imgur.com/2Q9Z2Z2.png" alt="Project 1" class="portfolio-img" />
-            <h3>Website E-Commerce</h3>
-            <p>React, Node.js, SCSS</p>
-            <a href="https://tokoonline.com" target="_blank">Lihat Proyek</a>
-          </div>
-          <div class="feature-card">
-            <img src="https://i.imgur.com/3Q9Z3Z3.png" alt="Project 2" class="portfolio-img" />
-            <h3>Dashboard Admin</h3>
-            <p>React, REST API</p>
-            <a href="https://dashboard.com" target="_blank">Lihat Proyek</a>
-          </div>
-          <div class="feature-card">
-            <img src="https://i.imgur.com/4Q9Z4Z4.png" alt="Project 3" class="portfolio-img" />
-            <h3>Landing Page Startup</h3>
-            <p>HTML, SCSS, Figma</p>
-            <a href="https://startup.com" target="_blank">Lihat Proyek</a>
-          </div>
-        </div>
-      </section>
+
+      <!-- Portfolio -->
+ <section class="features" id="portfolio" style="padding:2rem; font-family:Arial, sans-serif; background:#f9fafb;">
+  <div class="section-title" style="text-align:center; margin-bottom:2rem;">
+    <h2 style="font-size:2rem; font-weight:700; color:#1e293b; margin:0;">Contoh Proyek</h2>
+    <p style="color:#64748b; font-size:0.95rem; margin-top:0.5rem;">Beberapa karya yang pernah saya buat</p>
+  </div>
+
+  <div class="features-grid portfolio-grid" style="display:flex; gap:2rem; flex-wrap:wrap; justify-content:center;">
+
+    <!-- Proyek 1 -->
+    <div class="feature-card" style="border:1px solid #e2e8f0; border-radius:16px; padding:1rem; width:260px; text-align:center; background:white; box-shadow:0 4px 10px rgba(0,0,0,0.05); transition:transform 0.3s;">
+      <img src="assets/17.jpg" alt="Website E-Commerce" style="width:100%; height:auto; border-radius:12px;" />
+      <h3 style="font-size:1.1rem; margin:0.75rem 0 0.25rem; color:#0f172a;">Website E-Commerce</h3>
+      <p style="font-size:0.9rem; color:#64748b; margin:0 0 0.75rem;">React, Node.js, SCSS</p>
+
+      <!-- Checkbox -->
+      <input type="checkbox" id="proj1" style="display:none;">
+  
+
+      <!-- Gambar tambahan -->
+      <div style="max-height:0; overflow:hidden; transition:all 0.6s ease; opacity:0;" id="img1">
+        <img src="assets/17.jpg" alt="Website E-Commerce" style="width:100%; height:auto; margin-top:1rem; border-radius:12px;">
+      </div>
+
+      <style>
+        #proj1:checked ~ #img1 { max-height:600px; opacity:1; margin-top:1rem; }
+        .feature-card:hover { transform:translateY(-5px); }
+      </style>
+    </div>
+
+    <!-- Proyek 2 -->
+    <div class="feature-card" style="border:1px solid #e2e8f0; border-radius:16px; padding:1rem; width:260px; text-align:center; background:white; box-shadow:0 4px 10px rgba(0,0,0,0.05); transition:transform 0.3s;">
+      <img src="assets/dashboard.jpg" alt="Dashboard Admin" style="width:100%; height:auto; border-radius:12px;" />
+      <h3 style="font-size:1.1rem; margin:0.75rem 0 0.25rem; color:#0f172a;">Dashboard Admin</h3>
+      <p style="font-size:0.9rem; color:#64748b; margin:0 0 0.75rem;">React, REST API</p>
+      <input type="checkbox" id="proj2" style="display:none;">
+   
+      <div style="max-height:0; overflow:hidden; transition:all 0.6s ease; opacity:0;" id="img2">
+        <img src="assets/dashboard.jpg" alt="Dashboard Admin" style="width:100%; height:auto; margin-top:1rem; border-radius:12px;">
+      </div>
+      <style>
+        #proj2:checked ~ #img2 { max-height:600px; opacity:1; margin-top:1rem; }
+      </style>
+    </div>
+
+    <!-- Proyek 3 -->
+    <div class="feature-card" style="border:1px solid #e2e8f0; border-radius:16px; padding:1rem; width:260px; text-align:center; background:white; box-shadow:0 4px 10px rgba(0,0,0,0.05); transition:transform 0.3s;">
+      <img src="assets/landing.png" alt="Landing Page Startup" style="width:100%; height:auto; border-radius:12px;" />
+      <h3 style="font-size:1.1rem; margin:0.75rem 0 0.25rem; color:#0f172a;">Landing Page Startup</h3>
+      <p style="font-size:0.9rem; color:#64748b; margin:0 0 0.75rem;">HTML, SCSS, Figma</p>
+      <input type="checkbox" id="proj3" style="display:none;">
+     
+      <div style="max-height:0; overflow:hidden; transition:all 0.6s ease; opacity:0;" id="img3">
+        <img src="assets/landing.png" alt="Landing Page Startup" style="width:100%; height:auto; margin-top:1rem; border-radius:12px;">
+      </div>
+      <style>
+        #proj3:checked ~ #img3 { max-height:600px; opacity:1; margin-top:1rem; }
+      </style>
+    </div>
+
+  </div>
+</section>
+
 
       <!-- Footer -->
       <footer class="footer" id="contact">
         <div class="footer-content">
           <div class="footer-info">
-            <div class="footer-logo">
-              <img src="https://i.imgur.com/1Q9Z1Z1.jpg" alt="Foto Profil" class="profile-photo" />
-              <span>Pabwe Prak</span>
-            </div>
+           
             <p class="footer-description">
               Terima kasih telah mengunjungi portofolio saya. Silakan hubungi saya melalui email atau WhatsApp untuk kolaborasi atau pertanyaan lebih lanjut.
             </p>
